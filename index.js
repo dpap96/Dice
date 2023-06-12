@@ -10,7 +10,7 @@ selectedDice2=document.querySelector("img.img2"); //επιλεγμενο δευ�
 function calculateDice(selectedDice){ //συναρτηση που βρισκει τυχαιο αριθμο &οριζει την αναλογη img
   var x,dice;
   x=Math.floor(Math.random()*6)+1; //τυχαιος στρογγυλοποιημενος αριθμος 0...5.99+1 =0...6.99
-  dice="/images/dice"+x+".png";
+  dice="images/dice"+x+".png";
   selectedDice.setAttribute("src",dice);
 
    return x; //epistrefei to zari
